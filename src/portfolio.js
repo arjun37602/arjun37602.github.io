@@ -11,10 +11,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Arjun Balaji",
+  title: "Welcome to Arjun's website!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate highschooler with a strong interest and background in technology 🚀 Worked with several coding languages, clubs, non-profits, universties, and companies over the last few years 🖥"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -24,13 +24,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/arjun37602",
+  linkedin: "https://www.linkedin.com/in/arjun-balaji/",
+  gmail: "arjun37602@gmail.com",
+  instagram: "https://www.instagram.com/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -39,14 +36,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Enthustiastic, passionate high school student with a strong background in technology, entrepreneurship, communication, and graphic design",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and design high-quality websites and mobile applications using react, html/css, java, javascript, python"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Strong leadership, critical thinking, and communication skills through real-world experience"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Skilled at predicting, modelling, and analyzing data using machine learning in an accurate manner"
     )
   ],
 
@@ -63,8 +60,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -75,37 +72,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -116,23 +93,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Irvington High School",
+      logo: require("./assets/images/ihs.png"),
+      subHeader: "High School Diploma",
+      duration: "August 2018 - June 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Played Junior Varsity Soccer for two consecutive years",
+        "President of IHS Hack Club",
+        "Publicity Officer at Computer Science Club and Bring Change to Mind Club",
+        "Active award-winning member of Deca and Investment Club",
+        "Relevant Course Work: AP Calculus AB, AP Biology, AP Computer Science A, Engineering and Design, AP Physics 1, AP Psychology"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Dual Enrollment",
+      logo: require("./assets/images/dual.png"),
+      subHeader: "College Classes taken as a high school student",
+      duration: "February 2020 - Present",
+      descBullets: [
+        "Mission College: Elementary Statistics, Entrepreneurship, Digital Photography, Engineering and Design",
+        "De Anza College: Principles of Macroeconomics, Python",
+        "Foothill College: Microeconomics, Social Psychology",
+        "Ohlone College: Spanish 3"]
     }
   ]
 };
@@ -148,11 +130,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,30 +146,115 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Chief Executive Officer",
+      company: "Tech4U",
+      companylogo: require("./assets/images/tech4u.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Founded and Started my own non-profit organization that provides free programming lessons to hundreds of historically underrepresented groups of students for free of cost.",
+        "Organized an international hackathon, published technology related blogs, and launched a podcast to engage students",
+        "Expanded to chapters around the globe in countries such as Italy, Ecuador, UK, Pakistan, USA, and India",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Assistant",
+      company: "UC Berkeley",
+      companylogo: require("./assets/images/berk.png"),
+      date: "May 2020 – August 2020",
+      descBullets: [
+        "Only highschool student in research team of undergraduate and graduate students",
+        "Utilized Python and Scikit to conduct machine learning analysis on voter data in order to increase turnout among minority and low propensity voters.",
+        "Created a deep learning model that identified and predicted voter patterns among california residents"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Student Intern",
+      company: "Stria Labs, LLC",
+      companylogo: require("./assets/images/stria.png"),
+      date: "July 2020 – Sep 2020",
+      descBullets: ["Used Python and Pandas to develop a financial model to pattern and predict the company's expenses.", 
+      "Worked on the Stria App to leverage the cloud to develop new veering thresholds and seamlessly integrate walking navigation into the blind walking stick.",
+      "Procured grants for releasing a new product, spearheaded the marketing campaign and contacted blind centers",
+    ]
+    },
+    {
+      role: "Director of Technology",
+      company: "Epsilon Hacks",
+      companylogo: require("./assets/images/EH.png"),
+      date: "Sep 2019 – June 2020",
+      descBullets: ["Organized an international hackathon with over 350 high school students from around the world.",
+      "Single-handedly designed and developed a large-scale responsive website for Epsilon Hacks.",
+      "Aquired sponsors and organized workshops for the event."] 
+    },
+    {
+      role: "Campaign Intern",
+      company: "RishiForCongress",
+      companylogo: require("./assets/images/rishi.jpeg"),
+      date: "Apr 2021 – Aug 2021",
+      descBullets: ["Played a critical role in helping Congress candidate Rishi Kumar win the district 18 California House of Representative elections. ",
+    "Went door to door canvassing and conducted phone banking to persuade and flip Republican voters to support Rishi",
+  "Sent mass emails to 1000+ people and helped organize Rishi's website"]
+    },
+    {
+      role: "Chapter President | Lead Researcher",
+      company: "HelyX Initiative",
+      companylogo: require("./assets/images/hely.png"),
+      date: "October 2018 – Present",
+      descBullets: ["Responsible for all operations of HelyX's Bay Area Chapter, a bioinformatics based organization focused on providing AI/ML biology research opportunies to students.",
+    "Contributed to efforts of helping to raise thousands of dollars for the coronavirus pandemic and also donated hundreds of faceshields to organizations in need"]
+    },
+    {
+      role: "President | Founder",
+      company: "Hack Club",
+      companylogo: require("./assets/images/hack.jpeg"),
+      date: "August 2020 - Present",
+      descBullets: ["Created the largest technology club in my high school with over 90 active members.",
+    "Supervised all activities and ensured smooth operation of club",
+  "Created fun, engaging guestspeaker events and workshops for club members",
+"Club members created websites and applications for other clubs on campus"]
+    },
+    {
+      role: "Fellow",
+      company: "VMware",
+      companylogo: require("./assets/images/vm.jpeg"),
+      date: "July 2019 – July 2019",
+      descBullets: ["Participated in a highly-selective one-week program where I shadowed software engineers and attended professional career development workshops in a fortune 100 company.", 
+      "Placed second in the mini-hackathon by developing a sustainability website that uses web-scraping to find ingredients for receipes that are in season."
+    ]
+    },
+    {
+      role: "Research Affliate",
+      company: "University of Michigan",
+      companylogo: require("./assets/images/mich.png"),
+      date: "March 2020 – Aug 2021",
+      descBullets:[ "Conducted Data Log Analysis using javascript @ The University of Michigan to enhance the APCSA e-book experience. ",
+    "Created a feature in the APCSA ebook that can convert parsons style coding problems into active code editors where students can easily interact and learn. "]
+    },
+    {
+      role: "Instructor",
+      company: "Code Ninjas",
+      companylogo: require("./assets/images/cn.png"),
+      date: "May 2021 – Present",
+      descBullets: ["Part-time job of teaching students programming concepts in a fun and interactive manner.",
+      "Responsible for running the robotics and 3D printing summer camps.",
+    "Had to answer student questions and design curiculum for classes"]
+    },
+    {
+      role: "Chapter President",
+      company: "Enagage Stem",
+      companylogo: require("./assets/images/eng.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      descBullets: ["Managed all operations of Fremont chapter of Engage STEM.", "Created mobile apps and websites for non-profits in the bay area for free of cost", "Went to libraries and taught senior citizens tech-literacy"]
+    },
+    {
+      role: "Soccer Referee",
+      company: "Referee Association",
+      companylogo: require("./assets/images/ncra.png"),
+      date: "Nov 2018 – Present",
+      descBullets: ["Officiate at sporting events, games, and competitions, to maintain standards of play and ensure that game rules are enforced.", "Earned 45$ an hour as a high schooler.",
+    "Ensured that game was played smoothly and dealt with players, coaches, and parents concerns to run soccer tournaments" ]
+      
+    },
   ]
 };
 
@@ -203,28 +270,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some large scale companies and events that I launched",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/tech4u.png"),
+      projectName: "Tech4U",
+      projectDesc: "Provided free programming lessons to hundreds of children and organized a hackathon with several hundred participants from around the world. Created a blog series, podcast, organized fundraisers, etc. Designed and developed the Tech4u official website.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://tech-4u.org/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/EH.png"),
+      projectName: "Epsilon Hacks",
+      projectDesc: "Designed and developed Epsilon Hack's official website. Organized an international hackathon with 350+ participants from around the world. Helped acquire sponsors and host workshops to run the event smoothly. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://epsilonhacks.com/"
         }
       ]
     }
@@ -242,51 +309,62 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Hack Covid - Best Covid Hack",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Developed a mobile appliction designed to combat the covid 19 virus. This application gained recogniziton from the National Hospital Service in UK and was later presented to a group on panelists to discuss possible implementation in the UK.",
+      image: require("./assets/images/trophy.jpeg"),
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Bay Hacks - 2nd place Winner",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Won second place in an international hackathon with 1000 participants from around the world.",
+      image: require("./assets/images/trophy.jpeg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+         
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Pilot City Program - Internship Winner",
+      subtitle: "Won an internship position in Fab City Bay Area for designing an arduino based handwash timer",
+      image: require("./assets/images/trophy.jpeg"),
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+        
         }
       ]
-    }
-  ],
+    },
+
+  {
+    title: "DECA - Multiple time Award Winner",
+    subtitle: "Placed fourth place in SCDC and qualified for ICDC for BTDM event. Second place winner of Minicon and multiple time finalist at NorCal",
+    image: require("./assets/images/trophy.jpeg"),
+    footerLink: [
+      {name: "Certification", url: ""},
+      {
+       
+      }
+    ]
+  },
+  {
+    title: "Trinity School of Music - Grade 3 Distinction Certification",
+    subtitle: "Passed grade 3 of presitigious Trinity School of Music's electronic keyboard certification with distinction",
+    image: require("./assets/images/trophy.jpeg"),
+    footerLink: [
+      {name: "Certification", url: ""},
+      {
+     
+      }
+    ]
+  },
+],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -311,7 +389,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -330,7 +408,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -343,7 +421,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -351,14 +429,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "arjun37602@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
